@@ -1,0 +1,225 @@
+.navbar {
+    height: 80px;
+}
+
+.stories-section {
+    padding-top: 50px;
+}
+
+/* Short Profiles on Home Page */
+.profile-short {
+    display: inline-block;
+   /* background-color: grey;*/
+    margin: 20px;
+    height: 250px;
+    width: 500px;
+}
+
+.img-person {
+    float: left;
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+}
+
+/* total width = 250px, total height = 220px; */
+.story-short {
+    display: inline-block;
+    margin: 10px;
+    height: 200px;
+    width: 230px;
+}
+
+/* total width = 250px, total height = 30px; */
+.read-more {
+    margin: 10px;
+    width: 230px;
+    height: 10px;
+}
+
+/* ---------*/
+
+.menu-buttons {
+    float: right;
+}
+
+#about-section {
+    padding-top: 150px;
+    background-color: royalblue;
+    color: white;
+    height: 375px;
+    text-align: center;
+}
+
+#stories-section {
+    /* background-color: lightblue; */
+    padding-top: 50px;
+    height: 1000px;
+    text-align: center;
+}
+
+#page-heading {
+    padding-top: 130px;
+    height: 200px;
+    text-align: center;
+}
+
+#section{
+    height: 500px;
+    text-align: center;
+    background-color: pink;
+}
+
+.read-more-stories {
+    margin: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* gets messed up when resizing screen */
+footer {
+    background-color: black;
+    text-align:center;
+    color: white;
+    height: 100px;
+    padding-top: 40px;
+}
+
+/* Read stories page (Law) */
+
+.search-bar {
+	padding-top: 10px;
+}
+
+.filtby {
+	margin-top: 10px;
+	text-align: left;
+}
+
+
+#searchsubmit {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+/* Profile Page */
+.profile {
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.profile-pic {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+}
+
+.story {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    max-width: 700px;
+}
+
+.story-donate {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.fa {
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook-square {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+
+.social-icons {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.more-stories-title {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.more-stories-wrapper {
+    height: 400px;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    display: flex;
+    overflow: scroll;
+    padding-left: 30px;
+}
+
+.more-wrapper {
+    display: inline-block;
+    max-height: 500px;
+    width: auto;
+    padding: 10px;
+}
+
+.more-pic {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.more-story {
+    width: 300px;
+    max-height: 200px;
+    overflow-y: hidden;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
