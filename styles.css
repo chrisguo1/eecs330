@@ -1,5 +1,5 @@
 .navbar {
-    height: 80px;
+    height: 90px;
 }
 
 .stories-section {
@@ -45,7 +45,7 @@
 
 #about-section {
     padding-top: 150px;
-    background-color: royalblue;
+    background-color: royalblue; /* color options:375E97 34675C*/
     color: white;
     height: 375px;
     text-align: center;
@@ -238,4 +238,8 @@ footer {
 
 .textarea-height {
     height: 200px;
+}
+
+#logo {
+  height:90px;
 }
