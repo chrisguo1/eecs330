@@ -223,3 +223,19 @@ footer {
     display: none;
 }
 
+/* keren's css */
+.center-div {
+    width: 75%;
+}
+.center-elements {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-resize {
+    height: 300px;
+}
+
+.textarea-height {
+    height: 200px;
+}
